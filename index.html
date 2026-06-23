@@ -1,125 +1,268 @@
-<!doctype html>
-<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Adolescence and Risky Behaviors</title>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Questionario autovalutativo - Valutazione formativa</title>
 <style>
-*{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f4f6fb;color:#1f2937;line-height:1.45}
-header{background:linear-gradient(135deg,#304ffe,#1a237e);color:white;text-align:center;padding:28px 14px}
-header h1{margin:0 0 8px;font-size:clamp(1.7rem,7vw,3rem)} header p{margin:0;font-size:1.05rem}
-nav{position:sticky;top:0;z-index:2;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:10px;background:#f4f6fbee;border-bottom:1px solid #d9deea}
-nav a{text-align:center;text-decoration:none;background:white;color:#1a237e;border:1px solid #d9deea;border-radius:16px;padding:14px 8px;font-weight:800}
-main{max-width:1050px;margin:auto;padding:14px}.notice,.panel{background:white;border:1px solid #d9deea;border-radius:22px;padding:16px;margin:18px 0;box-shadow:0 3px 10px #0000000a}
-.notice{background:#fff8dd;border-color:#f0d36d}.topic{margin:24px 0}.topic-head{background:#e9edff;border:1px solid #d9deea;border-radius:22px;padding:18px;margin-bottom:12px}.topic-head h2{margin:0 0 5px}.topic-head p{margin:0;color:#5f6b7a;font-weight:700}
-.sentence-card{display:grid;grid-template-columns:42px 1fr auto;gap:10px;align-items:center;background:white;border:1px solid #d9deea;border-radius:18px;padding:12px;margin:10px 0}
-.num{display:grid;place-items:center;width:36px;height:36px;background:#e9edff;color:#1a237e;border-radius:50%;font-weight:900}.en{font-size:1.07rem;font-weight:800;margin:0 0 6px}.pron{font-size:1.03rem;color:#8a3b00;margin:0}
-button{border:0;border-radius:16px;padding:14px 16px;background:#304ffe;color:white;font-weight:900;min-height:48px;font-size:1rem}.danger{background:#b42318}.secondary{background:white;color:#1a237e;border:1px solid #d9deea}
-.exercise{padding:14px;border:1px solid #d9deea;border-radius:18px;margin:14px 0;background:#fbfcff}.exercise label{display:block;margin:10px 0;padding:12px;border-radius:14px;background:white;border:1px solid #d9deea}
-.result,#recognized{margin-top:10px;padding:12px;border-radius:14px;background:#e9edff;font-weight:700}.good{color:#147a3e}.bad{color:#b42318}
-select,input{font:inherit;width:100%;padding:14px;border-radius:14px;border:1px solid #d9deea;background:white;margin:6px 0 10px}
-.controls{display:grid;grid-template-columns:1fr 1fr;gap:10px} audio{width:100%;margin-top:10px}.audio-box{background:#fbfcff;border:1px solid #d9deea;border-radius:18px;padding:14px;margin:12px 0}
-@media(max-width:720px){nav{position:static;grid-template-columns:1fr}.sentence-card{grid-template-columns:36px 1fr}.sentence-card button{grid-column:1/-1;width:100%}.controls{grid-template-columns:1fr}button{width:100%}main{padding:10px}.en{font-size:1.09rem}.pron{font-size:1.06rem}}
-</style></head><body>
-<header><h1>Adolescence and Risky Behaviors</h1><p>Testo inglese, pronuncia, esercizi e allenamento audio</p></header>
-<nav><a href="#adolescence">Adolescence</a><a href="#tobacco">Tobacco</a><a href="#alcohol">Alcohol</a></nav>
-<main>
-<div class="notice"><strong>Nota audio:</strong> la registrazione funziona meglio se il sito è pubblicato online in HTTPS, per esempio su GitHub Pages. Il confronto automatico dipende dal browser: su alcuni telefoni può servire Chrome.</div>
-<section id="adolescence" class="topic"><div class="topic-head"><h2>1. ADOLESCENCE</h2><p>Adolescence: a period of change</p></div><article class="sentence-card">
-<div class="num">1</div><div><p class="en">Adolescence is a very important part of life.</p><p class="pron">Adolèsens iz a veri impòrtant part ov laif.</p></div>
-<button onclick='speakText("Adolescence is a very important part of life.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">2</div><div><p class="en">Adolescence starts around 11 years old.</p><p class="pron">Adolèsens starts araund ilèven yirs old.</p></div>
-<button onclick='speakText("Adolescence starts around 11 years old.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">3</div><div><p class="en">Adolescence finishes around 19 years old.</p><p class="pron">Adolèsens fìnishis araund nàintìn yirs old.</p></div>
-<button onclick='speakText("Adolescence finishes around 19 years old.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">4</div><div><p class="en">Adolescence is an important part of life because it is a period of change.</p><p class="pron">Adolèsens iz an impòrtant part ov laif bicòz it iz a pìriod ov cèing.</p></div>
-<button onclick='speakText("Adolescence is an important part of life because it is a period of change.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">5</div><div><p class="en">In adolescence, everything changes.</p><p class="pron">In adolèsens, evrithing cèingis.</p></div>
-<button onclick='speakText("In adolescence, everything changes.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">6</div><div><p class="en">In adolescence, people prefer friends to parents.</p><p class="pron">In adolèsens, pìpol prifèr frends tu pèrents.</p></div>
-<button onclick='speakText("In adolescence, people prefer friends to parents.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">7</div><div><p class="en">In adolescence, people try new experiences.</p><p class="pron">In adolèsens, pìpol trai niù ikspìriensis.</p></div>
-<button onclick='speakText("In adolescence, people try new experiences.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">8</div><div><p class="en">Adolescence is a period of friendship.</p><p class="pron">Adolèsens iz a pìriod ov frendship.</p></div>
-<button onclick='speakText("Adolescence is a period of friendship.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">9</div><div><p class="en">Adolescence is a period of love.</p><p class="pron">Adolèsens iz a pìriod ov lav.</p></div>
-<button onclick='speakText("Adolescence is a period of love.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">10</div><div><p class="en">Risky behaviors usually start during adolescence.</p><p class="pron">Rìski bihièviorz iùsciuali start diùring adolèsens.</p></div>
-<button onclick='speakText("Risky behaviors usually start during adolescence.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">11</div><div><p class="en">These behaviors start during this period because adolescents don&#x27;t think about risks.</p><p class="pron">Dhìs bihièviorz start diùring dhis pìriod bicòz adolèsents dont think abàut risks.</p></div>
-<button onclick='speakText("These behaviors start during this period because adolescents don't think about risks.")'>Ascolta</button></article></section>
-<section id="tobacco" class="topic"><div class="topic-head"><h2>2. TOBACCO</h2><p>Tobacco as a risky behavior</p></div><article class="sentence-card">
-<div class="num">1</div><div><p class="en">Tobacco is one of the risky behaviors.</p><p class="pron">Tobàco iz uan ov dhi rìski bihièviorz.</p></div>
-<button onclick='speakText("Tobacco is one of the risky behaviors.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">2</div><div><p class="en">People often start to smoke during adolescence.</p><p class="pron">Pìpol òfen start tu smòuk diùring adolèsens.</p></div>
-<button onclick='speakText("People often start to smoke during adolescence.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">3</div><div><p class="en">People start to smoke during adolescence for three reasons.</p><p class="pron">Pìpol start tu smòuk diùring adolèsens for thrì rìsons.</p></div>
-<button onclick='speakText("People start to smoke during adolescence for three reasons.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">4</div><div><p class="en">The first reason is that they do not think about the risks.</p><p class="pron">Dhe fèrst rìson iz dhat dhei du not think abàut dhi risks.</p></div>
-<button onclick='speakText("The first reason is that they do not think about the risks.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">5</div><div><p class="en">The second reason is that they want to try something new.</p><p class="pron">Dhe sècond rìson iz dhat dhei uònt tu trai samthing niù.</p></div>
-<button onclick='speakText("The second reason is that they want to try something new.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">6</div><div><p class="en">The third reason is peer pressure or the fact that they copy their parents.</p><p class="pron">Dhe thèrd rìson iz pìr prèsciur or dhe fact dhat dhei còpi dheir pèrents.</p></div>
-<button onclick='speakText("The third reason is peer pressure or the fact that they copy their parents.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">7</div><div><p class="en">The consequences of tobacco can be very dangerous.</p><p class="pron">Dhi cònsiquensis ov tobàco can bi veri dèinjeres.</p></div>
-<button onclick='speakText("The consequences of tobacco can be very dangerous.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">8</div><div><p class="en">There are three possible consequences.</p><p class="pron">Dher ar thrì pòssibol cònsiquensis.</p></div>
-<button onclick='speakText("There are three possible consequences.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">9</div><div><p class="en">The first one is respiratory problems.</p><p class="pron">Dhe fèrst uan iz rispìratori pròblems.</p></div>
-<button onclick='speakText("The first one is respiratory problems.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">10</div><div><p class="en">The second one is heart attack.</p><p class="pron">Dhe sècond uan iz hart attàck.</p></div>
-<button onclick='speakText("The second one is heart attack.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">11</div><div><p class="en">The third one is cancer or other health problems.</p><p class="pron">Dhe thèrd uan iz cànser or àdher helth pròblems.</p></div>
-<button onclick='speakText("The third one is cancer or other health problems.")'>Ascolta</button></article></section>
-<section id="alcohol" class="topic"><div class="topic-head"><h2>3. ALCOHOL</h2><p>Alcohol as a risky behavior</p></div><article class="sentence-card">
-<div class="num">1</div><div><p class="en">Alcohol is one of the risky behaviors.</p><p class="pron">Àlcol iz uan ov dhi rìski bihièviorz.</p></div>
-<button onclick='speakText("Alcohol is one of the risky behaviors.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">2</div><div><p class="en">People often start to drink alcohol during adolescence.</p><p class="pron">Pìpol òfen start tu drink àlcol diùring adolèsens.</p></div>
-<button onclick='speakText("People often start to drink alcohol during adolescence.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">3</div><div><p class="en">People start to drink alcohol during adolescence for three reasons.</p><p class="pron">Pìpol start tu drink àlcol diùring adolèsens for thrì rìsons.</p></div>
-<button onclick='speakText("People start to drink alcohol during adolescence for three reasons.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">4</div><div><p class="en">The first reason is that they do not think about the risks.</p><p class="pron">Dhe fèrst rìson iz dhat dhei du not think abàut dhi risks.</p></div>
-<button onclick='speakText("The first reason is that they do not think about the risks.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">5</div><div><p class="en">The second reason is that they want to try something new.</p><p class="pron">Dhe sècond rìson iz dhat dhei uònt tu trai samthing niù.</p></div>
-<button onclick='speakText("The second reason is that they want to try something new.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">6</div><div><p class="en">The third reason is peer pressure or the fact that they copy their parents.</p><p class="pron">Dhe thèrd rìson iz pìr prèsciur or dhe fact dhat dhei còpi dheir pèrents.</p></div>
-<button onclick='speakText("The third reason is peer pressure or the fact that they copy their parents.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">7</div><div><p class="en">The consequences of alcohol can be very dangerous.</p><p class="pron">Dhi cònsiquensis ov àlcol can bi veri dèinjeres.</p></div>
-<button onclick='speakText("The consequences of alcohol can be very dangerous.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">8</div><div><p class="en">There are three possible consequences.</p><p class="pron">Dher ar thrì pòssibol cònsiquensis.</p></div>
-<button onclick='speakText("There are three possible consequences.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">9</div><div><p class="en">The first one is car accidents or other accidents.</p><p class="pron">Dhe fèrst uan iz car àksidents or àdher àksidents.</p></div>
-<button onclick='speakText("The first one is car accidents or other accidents.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">10</div><div><p class="en">The second one is brain damage.</p><p class="pron">Dhe sècond uan iz brein dèmij.</p></div>
-<button onclick='speakText("The second one is brain damage.")'>Ascolta</button></article><article class="sentence-card">
-<div class="num">11</div><div><p class="en">The third one is cancer or other health problems.</p><p class="pron">Dhe thèrd uan iz cànser or àdher helth pròblems.</p></div>
-<button onclick='speakText("The third one is cancer or other health problems.")'>Ascolta</button></article></section>
-<section class="panel"><h2>Esercizi di verifica</h2>
-<div class="exercise"><h3>1. Scelta multipla</h3><p><b>When does adolescence start?</b></p>
-<label><input type="radio" name="q1" value="0"> Around 5 years old</label><label><input type="radio" name="q1" value="1"> Around 11 years old</label><label><input type="radio" name="q1" value="0"> Around 25 years old</label><div id="r1" class="result">Risposta non ancora controllata.</div><button onclick="checkRadio('q1','r1')">Controlla</button></div>
-<div class="exercise"><h3>2. Vero o falso</h3><p><b>People often start to smoke during adolescence.</b></p>
-<label><input type="radio" name="q2" value="1"> True</label><label><input type="radio" name="q2" value="0"> False</label><div id="r2" class="result">Risposta non ancora controllata.</div><button onclick="checkRadio('q2','r2')">Controlla</button></div>
-<div class="exercise"><h3>3. Completa</h3><p><b>The consequences of alcohol can be very ________.</b></p><input id="gap1" placeholder="Scrivi la parola mancante"><div id="r3" class="result">Risposta non ancora controllata.</div><button onclick="checkGap()">Controlla</button></div>
-<div class="exercise"><h3>4. Abbina</h3><p>Scrivi <b>T</b> per Tobacco oppure <b>A</b> per Alcohol.</p>
-<label>Respiratory problems <input id="m1" maxlength="1"></label><label>Brain damage <input id="m2" maxlength="1"></label><label>Car accidents <input id="m3" maxlength="1"></label><div id="r4" class="result">Risposta non ancora controllata.</div><button onclick="checkMatch()">Controlla</button></div>
-</section>
-<section class="panel" id="audio"><h2>Allenamento audio</h2><p>Scegli una frase, ascoltala, registrati e prova il confronto. Se la trascrizione non funziona, usa il confronto manuale.</p>
-<div class="audio-box"><label><b>Frase da leggere</b></label><select id="sentenceSelect"></select><button onclick="speakSelected()">Ascolta frase</button></div>
-<div class="audio-box"><h3>Registrazione</h3><div class="controls"><button onclick="startRecording()">Inizia registrazione</button><button class="danger" onclick="stopRecording()">Ferma</button></div><audio id="audioPlayback" controls></audio><div id="recordStatus" class="result">Registrazione non avviata.</div></div>
-<div class="audio-box"><h3>Confronto automatico</h3><button onclick="startSpeechCompare()">Parla e confronta</button><div id="recognized">Testo riconosciuto: —</div><div id="score" class="result">Punteggio non ancora disponibile.</div></div>
-<div class="audio-box"><h3>Confronto manuale</h3><input id="manualText" placeholder="Scrivi la frase pronunciata"><button onclick="manualCompare()">Confronta manualmente</button></div>
-</section></main>
+body{font-family:Arial,Helvetica,sans-serif;background:#f4f7fb;color:#1f2937;margin:0;line-height:1.5}
+.wrap{max-width:1000px;margin:auto;padding:22px}
+.card{background:white;border:1px solid #d8e2ef;border-radius:18px;padding:22px;margin-bottom:18px;box-shadow:0 8px 24px rgba(15,23,42,.06)}
+h1{font-size:1.8rem;margin-top:0} h2,h3{margin-bottom:8px}
+.muted{color:#64748b}
+.badge{display:inline-block;background:#eaf2ff;color:#2563eb;padding:6px 10px;border-radius:999px;margin:4px 6px 0 0}
+.question{border:1px solid #d8e2ef;border-radius:16px;padding:18px;margin:16px 0;background:#fbfdff}
+.levels{border:1px solid #d8e2ef;border-radius:14px;overflow:hidden;margin-top:12px}
+.level{display:grid;grid-template-columns:140px 1fr;border-bottom:1px solid #d8e2ef}
+.level:last-child{border-bottom:0}
+.level b{background:#eff6ff;padding:10px}
+.level span{padding:10px;background:white}
+label{font-weight:bold;display:block;margin:12px 0 6px}
+select,input,textarea{width:100%;padding:11px;border-radius:12px;border:1px solid #c9d4e0;font-size:1rem;box-sizing:border-box}
+textarea{min-height:90px}
+button{border:0;border-radius:12px;padding:12px 16px;font-size:1rem;cursor:pointer;margin:4px}
+.primary{background:#2563eb;color:white}
+.purple{background:#7c3aed;color:white}
+.secondary{background:#e5e7eb;color:#111827}
+.danger{background:#fee2e2;color:#991b1b}
+.results{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.box{border:1px solid #d8e2ef;border-radius:16px;padding:16px;background:#fcfdff}
+.big{font-size:1.6rem;font-weight:bold}
+.pill{display:inline-block;padding:6px 10px;border-radius:999px;font-weight:bold}
+.base{background:#fee2e2;color:#991b1b}
+.intermedio{background:#fef3c7;color:#92400e}
+.avanzato{background:#dcfce7;color:#166534}
+.status{margin-top:12px;padding:12px;border-radius:12px;background:#f8fafc;border:1px solid #d8e2ef}
+.ok{background:#dcfce7;color:#166534}
+.err{background:#fee2e2;color:#991b1b}
+canvas{width:100%;max-width:720px;height:320px;border:1px solid #d8e2ef;border-radius:16px;background:white;margin-top:16px}
+@media(max-width:800px){.results,.level{grid-template-columns:1fr}}
+@media print{button,.no-print{display:none}.card{box-shadow:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="card">
+<h1>Questionario autovalutativo sulla valutazione formativa</h1>
+<p><strong>Obiettivo:</strong> riflettere sul proprio livello di comprensione rispetto ad alcuni nuclei della valutazione formativa.</p>
+<p class="muted">Non viene richiesto il nome. Per ricevere una copia dei risultati, chi compila può inserire la propria email.</p>
+<span class="badge">1 = Base</span>
+<span class="badge">2 = Intermedio</span>
+<span class="badge">3 = Avanzato</span>
+</div>
+
+<div class="card no-print">
+<h2>Invio risultati</h2>
+<label for="studentEmail">Email di chi compila, per ricevere una copia</label>
+<input id="studentEmail" type="email" placeholder="email facoltativa">
+<div id="status" class="status">Stato invio: non ancora inviato.</div>
+</div>
+
+<div class="card">
+<h2>Questionario</h2>
+
+<div class="question">
+<h3>1. Il passaggio dalla valutazione come “controllo” alla valutazione come “navigatore”</h3>
+<p><strong>Domanda:</strong> In che misura hai compreso la differenza tra le funzioni tradizionali della valutazione e la sua nuova accezione formativa?</p>
+<div class="levels">
+<div class="level"><b>Livello 1<br>Base</b><span>Ho compreso che la valutazione tradizionale si focalizza sul controllo degli apprendimenti, sui voti e sull'identificazione del merito.</span></div>
+<div class="level"><b>Livello 2<br>Intermedio</b><span>Ho compreso che la valutazione formativa agisce come un “navigatore”, documentando la progressione degli apprendimenti e il dispiegamento delle potenzialità dell'allievo.</span></div>
+<div class="level"><b>Livello 3<br>Avanzato</b><span>Sono in grado di utilizzare la valutazione per favorire il riposizionamento dell'allievo rispetto al proprio apprendimento e per rinforzare la sua motivazione.</span></div>
+</div>
+<label for="q1">Seleziona il livello</label>
+<select id="q1"><option value="">Seleziona</option><option value="1">1 - Base</option><option value="2">2 - Intermedio</option><option value="3">3 - Avanzato</option></select>
+</div>
+
+<div class="question">
+<h3>2. La progettazione di una “prestazione autentica”</h3>
+<p><strong>Domanda:</strong> Quanto ti senti capace di strutturare una valutazione che metta in relazione i contenuti scolastici con la realtà?</p>
+<div class="levels">
+<div class="level"><b>Livello 1<br>Base</b><span>Ho compreso che la valutazione autentica richiede agli studenti di collaborare alla costruzione della disciplina, superando la semplice ripetizione di conoscenze.</span></div>
+<div class="level"><b>Livello 2<br>Intermedio</b><span>Sono capace di identificare un compito complesso che richieda l'uso reale di conoscenze e abilità per risolvere problemi in contesti significativi.</span></div>
+<div class="level"><b>Livello 3<br>Avanzato</b><span>Saprei definire una procedura che specifichi i diversi livelli di prestazione degli allievi, fornendo feedback continui per permettere loro di perfezionare i prodotti.</span></div>
+</div>
+<label for="q2">Seleziona il livello</label>
+<select id="q2"><option value="">Seleziona</option><option value="1">1 - Base</option><option value="2">2 - Intermedio</option><option value="3">3 - Avanzato</option></select>
+</div>
+
+<div class="question">
+<h3>3. L'uso dell'autovalutazione e del portfolio</h3>
+<p><strong>Domanda:</strong> Qual è il tuo livello di padronanza nell'uso di strumenti narrativi per promuovere la consapevolezza dello studente?</p>
+<div class="levels">
+<div class="level"><b>Livello 1<br>Base</b><span>Ho compreso che il portfolio è una raccolta dei prodotti dello studente che fornisce un'immagine del suo percorso educativo.</span></div>
+<div class="level"><b>Livello 2<br>Intermedio</b><span>So come sollecitare lo studente ad auto-valutarsi, guidandolo nella riflessione critica sui propri lavori e sulle proprie scoperte.</span></div>
+<div class="level"><b>Livello 3<br>Avanzato</b><span>Sono in grado di utilizzare il portfolio come dispositivo per rendere lo studente “visibile” e responsabile, aiutandolo a costruire un'immagine realistica e positiva di sé attraverso il racconto del proprio percorso.</span></div>
+</div>
+<label for="q3">Seleziona il livello</label>
+<select id="q3"><option value="">Seleziona</option><option value="1">1 - Base</option><option value="2">2 - Intermedio</option><option value="3">3 - Avanzato</option></select>
+</div>
+
+<label for="commento">Commento personale facoltativo</label>
+<textarea id="commento" placeholder="Scrivi una breve riflessione facoltativa"></textarea>
+
+<button class="primary" onclick="calcola()">Calcola risultato</button>
+<button class="purple" onclick="invia()">Invia risultati</button>
+<button class="secondary" onclick="scaricaCSV()">Scarica CSV</button>
+<button class="secondary" onclick="window.print()">Stampa / PDF</button>
+<button class="danger" onclick="resetta()">Azzera</button>
+</div>
+
+<div class="card">
+<h2>Risultato</h2>
+<div class="results">
+<div class="box"><div class="muted">Totale</div><div id="totale" class="big">—</div></div>
+<div class="box"><div class="muted">Media</div><div id="media" class="big">—</div></div>
+<div class="box"><div class="muted">Profilo</div><div id="profilo" class="big">—</div><div id="pill" class="pill">Non calcolato</div></div>
+</div>
+<canvas id="grafico" width="720" height="320"></canvas>
+<p id="feedback" class="status">Compila il questionario e calcola il risultato.</p>
+</div>
+
+<div class="card">
+<h2>Riepilogo risposte</h2>
+<p class="muted">Qui compaiono solo le risposte date, senza nome.</p>
+<div id="riepilogo">Nessun riepilogo disponibile.</div>
+</div>
+
+</div>
+
 <script>
-const sentences = [{"section": "1. ADOLESCENCE", "en": "Adolescence is a very important part of life.", "pr": "Adolèsens iz a veri impòrtant part ov laif."}, {"section": "1. ADOLESCENCE", "en": "Adolescence starts around 11 years old.", "pr": "Adolèsens starts araund ilèven yirs old."}, {"section": "1. ADOLESCENCE", "en": "Adolescence finishes around 19 years old.", "pr": "Adolèsens fìnishis araund nàintìn yirs old."}, {"section": "1. ADOLESCENCE", "en": "Adolescence is an important part of life because it is a period of change.", "pr": "Adolèsens iz an impòrtant part ov laif bicòz it iz a pìriod ov cèing."}, {"section": "1. ADOLESCENCE", "en": "In adolescence, everything changes.", "pr": "In adolèsens, evrithing cèingis."}, {"section": "1. ADOLESCENCE", "en": "In adolescence, people prefer friends to parents.", "pr": "In adolèsens, pìpol prifèr frends tu pèrents."}, {"section": "1. ADOLESCENCE", "en": "In adolescence, people try new experiences.", "pr": "In adolèsens, pìpol trai niù ikspìriensis."}, {"section": "1. ADOLESCENCE", "en": "Adolescence is a period of friendship.", "pr": "Adolèsens iz a pìriod ov frendship."}, {"section": "1. ADOLESCENCE", "en": "Adolescence is a period of love.", "pr": "Adolèsens iz a pìriod ov lav."}, {"section": "1. ADOLESCENCE", "en": "Risky behaviors usually start during adolescence.", "pr": "Rìski bihièviorz iùsciuali start diùring adolèsens."}, {"section": "1. ADOLESCENCE", "en": "These behaviors start during this period because adolescents don't think about risks.", "pr": "Dhìs bihièviorz start diùring dhis pìriod bicòz adolèsents dont think abàut risks."}, {"section": "2. TOBACCO", "en": "Tobacco is one of the risky behaviors.", "pr": "Tobàco iz uan ov dhi rìski bihièviorz."}, {"section": "2. TOBACCO", "en": "People often start to smoke during adolescence.", "pr": "Pìpol òfen start tu smòuk diùring adolèsens."}, {"section": "2. TOBACCO", "en": "People start to smoke during adolescence for three reasons.", "pr": "Pìpol start tu smòuk diùring adolèsens for thrì rìsons."}, {"section": "2. TOBACCO", "en": "The first reason is that they do not think about the risks.", "pr": "Dhe fèrst rìson iz dhat dhei du not think abàut dhi risks."}, {"section": "2. TOBACCO", "en": "The second reason is that they want to try something new.", "pr": "Dhe sècond rìson iz dhat dhei uònt tu trai samthing niù."}, {"section": "2. TOBACCO", "en": "The third reason is peer pressure or the fact that they copy their parents.", "pr": "Dhe thèrd rìson iz pìr prèsciur or dhe fact dhat dhei còpi dheir pèrents."}, {"section": "2. TOBACCO", "en": "The consequences of tobacco can be very dangerous.", "pr": "Dhi cònsiquensis ov tobàco can bi veri dèinjeres."}, {"section": "2. TOBACCO", "en": "There are three possible consequences.", "pr": "Dher ar thrì pòssibol cònsiquensis."}, {"section": "2. TOBACCO", "en": "The first one is respiratory problems.", "pr": "Dhe fèrst uan iz rispìratori pròblems."}, {"section": "2. TOBACCO", "en": "The second one is heart attack.", "pr": "Dhe sècond uan iz hart attàck."}, {"section": "2. TOBACCO", "en": "The third one is cancer or other health problems.", "pr": "Dhe thèrd uan iz cànser or àdher helth pròblems."}, {"section": "3. ALCOHOL", "en": "Alcohol is one of the risky behaviors.", "pr": "Àlcol iz uan ov dhi rìski bihièviorz."}, {"section": "3. ALCOHOL", "en": "People often start to drink alcohol during adolescence.", "pr": "Pìpol òfen start tu drink àlcol diùring adolèsens."}, {"section": "3. ALCOHOL", "en": "People start to drink alcohol during adolescence for three reasons.", "pr": "Pìpol start tu drink àlcol diùring adolèsens for thrì rìsons."}, {"section": "3. ALCOHOL", "en": "The first reason is that they do not think about the risks.", "pr": "Dhe fèrst rìson iz dhat dhei du not think abàut dhi risks."}, {"section": "3. ALCOHOL", "en": "The second reason is that they want to try something new.", "pr": "Dhe sècond rìson iz dhat dhei uònt tu trai samthing niù."}, {"section": "3. ALCOHOL", "en": "The third reason is peer pressure or the fact that they copy their parents.", "pr": "Dhe thèrd rìson iz pìr prèsciur or dhe fact dhat dhei còpi dheir pèrents."}, {"section": "3. ALCOHOL", "en": "The consequences of alcohol can be very dangerous.", "pr": "Dhi cònsiquensis ov àlcol can bi veri dèinjeres."}, {"section": "3. ALCOHOL", "en": "There are three possible consequences.", "pr": "Dher ar thrì pòssibol cònsiquensis."}, {"section": "3. ALCOHOL", "en": "The first one is car accidents or other accidents.", "pr": "Dhe fèrst uan iz car àksidents or àdher àksidents."}, {"section": "3. ALCOHOL", "en": "The second one is brain damage.", "pr": "Dhe sècond uan iz brein dèmij."}, {"section": "3. ALCOHOL", "en": "The third one is cancer or other health problems.", "pr": "Dhe thèrd uan iz cànser or àdher helth pròblems."}];
-function fillSelect(){const sel=document.getElementById('sentenceSelect');sentences.forEach((s,i)=>{let o=document.createElement('option');o.value=i;o.textContent=s.section+' - '+s.en;sel.appendChild(o);});} fillSelect();
-function speakText(text){if(!('speechSynthesis'in window)){alert('Sintesi vocale non supportata.');return;} speechSynthesis.cancel();let u=new SpeechSynthesisUtterance(text);u.lang='en-US';u.rate=.78;speechSynthesis.speak(u);}
-function speakSelected(){speakText(sentences[document.getElementById('sentenceSelect').value].en);}
-function checkRadio(name,id){let c=document.querySelector('input[name="'+name+'"]:checked'),b=document.getElementById(id);if(!c){b.innerHTML='<span class="bad">Scegli una risposta.</span>';return;}b.innerHTML=c.value==='1'?'<span class="good">Corretto.</span>':'<span class="bad">Non corretto. Riprova.</span>';}
-function checkGap(){let v=document.getElementById('gap1').value.trim().toLowerCase();document.getElementById('r3').innerHTML=v==='dangerous'?'<span class="good">Corretto.</span>':'<span class="bad">Non corretto. La parola corretta è: dangerous.</span>';}
-function checkMatch(){let a=m1.value.trim().toUpperCase(),b=m2.value.trim().toUpperCase(),c=m3.value.trim().toUpperCase();r4.innerHTML=(a==='T'&&b==='A'&&c==='A')?'<span class="good">Corretto.</span>':'<span class="bad">Soluzione: respiratory problems = T, brain damage = A, car accidents = A.</span>';}
-let mediaRecorder,audioChunks=[];
-async function startRecording(){try{let stream=await navigator.mediaDevices.getUserMedia({audio:true});audioChunks=[];mediaRecorder=new MediaRecorder(stream);mediaRecorder.ondataavailable=e=>audioChunks.push(e.data);mediaRecorder.onstop=()=>{let blob=new Blob(audioChunks,{type:'audio/webm'});audioPlayback.src=URL.createObjectURL(blob);recordStatus.innerHTML='<span class="good">Registrazione pronta. Puoi riascoltarla.</span>';stream.getTracks().forEach(t=>t.stop());};mediaRecorder.start();recordStatus.textContent='Registrazione in corso...';}catch(e){recordStatus.innerHTML='<span class="bad">Microfono non disponibile. Prova da HTTPS o autorizza il microfono.</span>';}}
-function stopRecording(){if(mediaRecorder&&mediaRecorder.state!=='inactive')mediaRecorder.stop();else recordStatus.innerHTML='<span class="bad">Nessuna registrazione attiva.</span>';}
-function norm(t){return t.toLowerCase().replace(/[.,!?;:'"()]/g,'').replace(/\s+/g,' ').trim();}
-function sim(a,b){a=norm(a);b=norm(b);if(!a||!b)return 0;let aw=a.split(' '),bw=b.split(' '),used=Array(bw.length).fill(false),m=0;aw.forEach(w=>{for(let i=0;i<bw.length;i++){if(!used[i]&&bw[i]===w){m++;used[i]=true;break;}}});return Math.round((m/Math.max(aw.length,bw.length))*100);}
-function showScore(txt){let exp=sentences[sentenceSelect.value].en,sc=sim(exp,txt);recognized.textContent='Testo riconosciuto: '+txt;score.innerHTML=(sc>=80?'<span class="good">Molto bene: '+sc+'%</span>':sc>=50?'Abbastanza bene: '+sc+'%. Riprova lentamente.':'<span class="bad">Da riprovare: '+sc+'%</span>')+'<br><small>Frase corretta: '+exp+'</small>';}
-function startSpeechCompare(){let SR=window.SpeechRecognition||window.webkitSpeechRecognition;if(!SR){score.innerHTML='<span class="bad">Confronto automatico non supportato. Usa il confronto manuale.</span>';return;}let r=new SR();r.lang='en-US';r.interimResults=false;r.maxAlternatives=1;r.onstart=()=>{recognized.textContent='Sto ascoltando...';score.textContent='Parla ora.'};r.onresult=e=>showScore(e.results[0][0].transcript);r.onerror=()=>score.innerHTML='<span class="bad">Non riesco a trascrivere. Usa il confronto manuale.</span>';r.start();}
-function manualCompare(){if(!manualText.value.trim()){score.innerHTML='<span class="bad">Scrivi prima una frase.</span>';return;}showScore(manualText.value);}
-</script></body></html>
+const ENDPOINT = "https://script.google.com/macros/s/AKfycbwqXMcY09PnJ1S8Vb92jK-z9jcnc-d3cyYlE62PKlkSJgBIvKZKoptVJTsexqtYcnox/exec";
+const TEACHER_EMAIL = "sptzetaevi@gmail.com";
+
+const labels = {1:"Base",2:"Intermedio",3:"Avanzato"};
+const domande = [
+"Valutazione come controllo / navigatore",
+"Prestazione autentica",
+"Autovalutazione e portfolio"
+];
+
+let ultimoRecord = null;
+
+function valore(id){
+  const v = document.getElementById(id).value;
+  if(!v){ alert("Compila tutte le risposte."); document.getElementById(id).focus(); return null; }
+  return parseInt(v,10);
+}
+
+function calcola(){
+  const q1=valore("q1"); if(q1===null)return;
+  const q2=valore("q2"); if(q2===null)return;
+  const q3=valore("q3"); if(q3===null)return;
+
+  const totale=q1+q2+q3;
+  const media=(totale/3).toFixed(2);
+  let profilo, feedback, cls;
+
+  if(totale<=4){
+    profilo="Base"; cls="base";
+    feedback="Il percorso è avviato. Hai riconosciuto alcuni elementi essenziali della valutazione formativa, ma può essere utile consolidare i concetti principali.";
+  } else if(totale<=7){
+    profilo="Intermedio"; cls="intermedio";
+    feedback="Hai una comprensione abbastanza solida dei nuclei proposti. Puoi crescere nella progettazione operativa degli strumenti.";
+  } else {
+    profilo="Avanzato"; cls="avanzato";
+    feedback="Mostri una buona padronanza dei concetti e sai collegare valutazione formativa, prestazione autentica, feedback e portfolio.";
+  }
+
+  document.getElementById("totale").textContent=totale+" / 9";
+  document.getElementById("media").textContent=media;
+  document.getElementById("profilo").textContent=profilo;
+  document.getElementById("pill").textContent=profilo;
+  document.getElementById("pill").className="pill "+cls;
+  document.getElementById("feedback").textContent=feedback;
+
+  creaRiepilogo([q1,q2,q3],totale,media,profilo);
+  grafico([q1,q2,q3]);
+
+  ultimoRecord={
+    timestamp:new Date().toISOString(),
+    teacherEmail:TEACHER_EMAIL,
+    studentEmail:document.getElementById("studentEmail").value.trim(),
+    q1:q1,q1Label:labels[q1],
+    q2:q2,q2Label:labels[q2],
+    q3:q3,q3Label:labels[q3],
+    totale:totale,
+    media:media,
+    profilo:profilo,
+    commento:document.getElementById("commento").value.trim()
+  };
+}
+
+function creaRiepilogo(vals,totale,media,profilo){
+  let html="<ul>";
+  vals.forEach((v,i)=>html+="<li><strong>"+domande[i]+":</strong> livello "+v+" - "+labels[v]+"</li>");
+  html+="</ul><p><strong>Totale:</strong> "+totale+" / 9</p><p><strong>Media:</strong> "+media+"</p><p><strong>Profilo:</strong> "+profilo+"</p>";
+  document.getElementById("riepilogo").innerHTML=html;
+}
+
+function grafico(vals){
+  const c=document.getElementById("grafico"),ctx=c.getContext("2d");
+  ctx.clearRect(0,0,c.width,c.height);
+  ctx.fillStyle="#fff";ctx.fillRect(0,0,c.width,c.height);
+  ctx.fillStyle="#1f2937";ctx.font="18px Arial";ctx.fillText("Grafico dei livelli selezionati",24,34);
+  const xs=[120,315,510], base=260, maxH=180, barW=90;
+  vals.forEach((v,i)=>{
+    const h=(v/3)*maxH;
+    ctx.fillStyle="#e5e7eb";ctx.fillRect(xs[i],base-maxH,barW,maxH);
+    ctx.fillStyle=i===0?"#2563eb":i===1?"#7c3aed":"#059669";
+    ctx.fillRect(xs[i],base-h,barW,h);
+    ctx.fillStyle="#1f2937";ctx.font="16px Arial";
+    ctx.fillText("Q"+(i+1),xs[i]+30,base+26);
+    ctx.fillText(v+" - "+labels[v],xs[i]-6,base-h-10);
+  });
+  ctx.fillStyle="#64748b";ctx.font="13px Arial";
+  ctx.fillText("1 = Base | 2 = Intermedio | 3 = Avanzato",24,300);
+}
+
+async function invia(){
+  if(!ultimoRecord){ calcola(); if(!ultimoRecord)return; }
+  try{
+    await fetch(ENDPOINT,{
+      method:"POST",
+      mode:"no-cors",
+      headers:{"Content-Type":"text/plain;charset=utf-8"},
+      body:JSON.stringify(ultimoRecord)
+    });
+    document.getElementById("status").className="status ok";
+    document.getElementById("status").textContent="Risultati inviati correttamente.";
+  }catch(e){
+    document.getElementById("status").className="status err";
+    document.getElementById("status").textContent="Invio non riuscito. Puoi scaricare il CSV.";
+  }
+}
+
+function scaricaCSV(){
+  if(!ultimoRecord){ calcola(); if(!ultimoRecord)return; }
+  const copia={...ultimoRecord};
+  delete copia.studentEmail;
+  const keys=Object.keys(copia);
+  const csv=keys.join(";")+"\n"+keys.map(k=>'"'+String(copia[k]??"").replaceAll('"','""')+'"').join(";");
+  const blob=new Blob([csv],{type:"text/csv;charset=utf-8"});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement("a");
+  a.href=url;a.download="risposte_questionario_autovalutativo.csv";a.click();
+  URL.revokeObjectURL(url);
+}
+
+function resetta(){
+  ["q1","q2","q3"].forEach(id=>document.getElementById(id).value="");
+  document.getElementById("studentEmail").value="";
+  document.getElementById("commento").value="";
+  document.getElementById("totale").textContent="—";
+  document.getElementById("media").textContent="—";
+  document.getElementById("profilo").textContent="—";
+  document.getElementById("pill").textContent="Non calcolato";
+  document.getElementById("pill").className="pill";
+  document.getElementById("feedback").textContent="Compila il questionario e calcola il risultato.";
+  document.getElementById("riepilogo").textContent="Nessun riepilogo disponibile.";
+  document.getElementById("status").className="status";
+  document.getElementById("status").textContent="Stato invio: non ancora inviato.";
+  const c=document.getElementById("grafico");
+  c.getContext("2d").clearRect(0,0,c.width,c.height);
+  ultimoRecord=null;
+}
+</script>
+</body>
+</html>
